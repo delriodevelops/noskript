@@ -90,6 +90,9 @@ function crearContraseña(e) {
     }
     
     $pass.innerHTML = password.join('');
+    $pass.addEventListener('click',()=>{
+        navigator.clipboard.writeText(password.join(''));
+    })
     
 }
 
@@ -106,5 +109,6 @@ $minusculas.addEventListener('click',crearContraseña);
 $mayusculas.addEventListener('click',crearContraseña);
 $numeros.addEventListener('click',crearContraseña);
 $especiales.addEventListener('click',crearContraseña);
+
 
 
