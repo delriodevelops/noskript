@@ -15,25 +15,26 @@
     <h1>Noskript</h1>
     <div id="master">
 
-        <div>
+        <div id="container__psw">
             <p id="pass"></p>
-            <button id="refresh">generar</button>
+            <button id="refresh">Generar</button>
         </div>
 
         <div id="tweaks">
 
             <div id="psw__length">
-                <p id="show__length"></p>
-                <input type="range" name="longitud" id="ipt__range" min="8" max="128" step="1" value="8"id="psw__range">
+                <p id="show__length">16</p>
+                <label for="psw__range"><input type="range" name="longitud" min="8" max="64" step="1" value="16" id="psw__range">Longitud</label>
             </div>
 
             <div id="checks">
-                <input type="checkbox" name="" id="" checked="on">
-                <input type="checkbox" name="" id="" checked="on">
-                <input type="checkbox" name="" id="">
-                <input type="checkbox" name="" id="">
+                <label for="minusculas"><input type="checkbox" name="minusculas" id="minusculas" checked="on">Minúsculas</label><br>
+                <label for="mayusculas"><input type="checkbox" name="mayusculas" id="mayusculas" checked="on">Mayúsculas</label><br>
+                <label for="numeros"><input type="checkbox" name="numeros" id="numeros" checked="on">Números</label><br>
+                <label for="especiales"><input type="checkbox" name="especiales" id="especiales" checked="on">Caracteres especiales</label> 
             </div>
         </div>
     </div>
 </body>
+<script src="scripts/generador.js"></script>
 </html>
