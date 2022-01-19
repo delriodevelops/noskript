@@ -110,3 +110,32 @@ body {
     margin:0 32px;
 
 }
+
+@media (max-width: 475px) {
+    #master{
+        text-align: center;
+        min-width: 100px;
+        width: 95vw;
+        max-width: 460px;
+    }
+    
+#container__psw {
+
+    text-align: center;
+    min-width: 100px;
+        width: 95vw;
+        max-width: 460px;
+}
+
+#pass,#refresh {
+        text-align: center;
+        display: inline-block;
+        min-width: 100px;
+        width: 90%;
+        max-width: 450px;
+        text-overflow:ellipsis;
+
+}
+
+
+}
