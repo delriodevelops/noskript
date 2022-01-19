@@ -96,8 +96,9 @@ function crearContraseña(e) {
     
 }
 
-$psw__length.addEventListener('mousemove',longitud);
+/*$psw__length.addEventListener('mousemove',longitud);
 $psw__length.addEventListener('click',longitud);
+*/
 
 $psw__length.addEventListener('click',crearContraseña);
 $refresh.addEventListener('click',crearContraseña);
