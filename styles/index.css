@@ -122,7 +122,7 @@ body {
 #container__psw {
 
     text-align: center;
-    min-width: 100px;
+    min-width: 125px;
         width: 95vw;
         max-width: 460px;
 }
@@ -135,6 +135,42 @@ body {
         max-width: 450px;
         text-overflow:ellipsis;
 
+}
+
+#pass {
+    line-break: anywhere;
+
+}
+
+#tweaks {
+    display: grid;
+
+
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 64px;
+
+    
+    
+    min-width: 200px;
+    width: 100%;
+    max-width: 460px;
+
+    min-height: 250px;
+    height: 30vh;
+    max-height: 500px;
+}
+
+#checks {
+    text-align: left;
+    margin: auto;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#checks input {
+    margin-top: 12px;
 }
 
 
