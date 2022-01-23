@@ -58,7 +58,7 @@ function crearContraseña(e) {
 
     if(!($minusculas.checked) && !($mayusculas.checked) && !($numeros.checked) && !($especiales.checked)) {
         e.target.checked = true;
-        alert('Selecciona al menos una casilla.');
+        alert('Check at least one box.');
         
     }
 
@@ -96,9 +96,6 @@ function crearContraseña(e) {
     
 }
 
-/*$psw__length.addEventListener('mousemove',longitud);
-$psw__length.addEventListener('click',longitud);
-*/
 
 $psw__length.addEventListener('click',crearContraseña);
 $refresh.addEventListener('click',crearContraseña);
